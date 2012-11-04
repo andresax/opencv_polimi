@@ -1,0 +1,416 @@
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4287863754/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4287863754.dir/build.make CMakeFiles/cmTryCompileExec4287863754.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4287863754.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections  -DCHECK_FUNCTION_EXISTS=alloca -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec4287863754.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function ‘alloca’ [enabled by default]
+Linking C executable cmTryCompileExec4287863754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4287863754.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections  -DCHECK_FUNCTION_EXISTS=alloca -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4287863754.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4287863754 -rdynamic 
+CMakeFiles/cmTryCompileExec4287863754.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x19): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec4287863754] Error 1
+gmake: *** [cmTryCompileExec4287863754/fast] Error 2
+
+
+Determining if the include file /usr/include/libpng/png.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec816495046/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec816495046.dir/build.make CMakeFiles/cmTryCompileExec816495046.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec816495046.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec816495046.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:37: fatal error: /usr/include/libpng/png.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec816495046.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec816495046/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3316732608/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3316732608.dir/build.make CMakeFiles/cmTryCompileExec3316732608.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3316732608.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3316732608.dir/CheckSymbolExists.cxx.o -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3316732608.dir/CheckSymbolExists.cxx.o] Error 1
+gmake: *** [cmTryCompileExec3316732608/fast] Error 2
+
+File /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1679345467/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1679345467.dir/build.make CMakeFiles/cmTryCompileExec1679345467.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1679345467.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1679345467.dir/CheckSymbolExists.cxx.o -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1679345467.dir/CheckSymbolExists.cxx.o] Error 1
+gmake: *** [cmTryCompileExec1679345467/fast] Error 2
+
+File /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec746081251/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec746081251.dir/build.make CMakeFiles/cmTryCompileExec746081251.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec746081251.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec746081251.dir/CheckSymbolExists.cxx.o -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec746081251.dir/CheckSymbolExists.cxx.o] Error 1
+gmake: *** [cmTryCompileExec746081251/fast] Error 2
+
+File /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1431011104/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1431011104.dir/build.make CMakeFiles/cmTryCompileExec1431011104.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1431011104.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1431011104.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1431011104.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1431011104/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1623898011/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1623898011.dir/build.make CMakeFiles/cmTryCompileExec1623898011.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1623898011.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1623898011.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1623898011.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1623898011/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1583051426/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1583051426.dir/build.make CMakeFiles/cmTryCompileExec1583051426.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1583051426.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1583051426.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1583051426.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1583051426/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2218008296/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2218008296.dir/build.make CMakeFiles/cmTryCompileExec2218008296.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2218008296.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2218008296.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2218008296.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec2218008296/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1518808028/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1518808028.dir/build.make CMakeFiles/cmTryCompileExec1518808028.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1518808028.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1518808028.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1518808028.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1518808028/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3181381195/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3181381195.dir/build.make CMakeFiles/cmTryCompileExec3181381195.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3181381195.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3181381195.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3181381195.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec3181381195/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1812368449/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1812368449.dir/build.make CMakeFiles/cmTryCompileExec1812368449.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1812368449.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1812368449.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1812368449.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1812368449/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2472470504/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2472470504.dir/build.make CMakeFiles/cmTryCompileExec2472470504.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2472470504.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2472470504.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2472470504.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec2472470504/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1307715447/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1307715447.dir/build.make CMakeFiles/cmTryCompileExec1307715447.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1307715447.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1307715447.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1307715447.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1307715447/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec795565971/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec795565971.dir/build.make CMakeFiles/cmTryCompileExec795565971.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec795565971.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec795565971.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec795565971.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec795565971/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3609141680/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3609141680.dir/build.make CMakeFiles/cmTryCompileExec3609141680.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3609141680.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3609141680.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3609141680.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3609141680/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2869677973/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2869677973.dir/build.make CMakeFiles/cmTryCompileExec2869677973.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2869677973.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2869677973.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2869677973.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec2869677973/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4230617652/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4230617652.dir/build.make CMakeFiles/cmTryCompileExec4230617652.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4230617652.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec4230617652.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4230617652.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec4230617652/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1129381455/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1129381455.dir/build.make CMakeFiles/cmTryCompileExec1129381455.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1129381455.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1129381455.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1129381455.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1129381455/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1604806779/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1604806779.dir/build.make CMakeFiles/cmTryCompileExec1604806779.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1604806779.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1604806779.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1604806779.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1604806779/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec628369211/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec628369211.dir/build.make CMakeFiles/cmTryCompileExec628369211.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec628369211.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec628369211.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec628369211.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec628369211/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1534224029/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1534224029.dir/build.make CMakeFiles/cmTryCompileExec1534224029.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1534224029.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1534224029.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1534224029.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec1534224029/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2613171181/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2613171181.dir/build.make CMakeFiles/cmTryCompileExec2613171181.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2613171181.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2613171181.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/v4l-utils-0.8.8/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2613171181.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec2613171181/fast] Error 2
+
+

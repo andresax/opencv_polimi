@@ -1,0 +1,414 @@
+The system is: Linux - 3.6.3-1.fc17.i686 - i686
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3231391529/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3231391529.dir/build.make CMakeFiles/cmTryCompileExec3231391529.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3231391529.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3231391529.dir/testCXXCompiler.cxx.o -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3231391529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3231391529.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3231391529.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3231391529 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2863742772/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2863742772.dir/build.make CMakeFiles/cmTryCompileExec2863742772.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2863742772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2863742772.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2863742772 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/i686-redhat-linux/4.7.2/lto-wrapper
+Target: i686-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --disable-build-with-cxx --disable-build-poststage1-with-cxx --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
+Thread model: posix
+gcc version 4.7.2 20120921 (Red Hat 4.7.2-2) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2863742772' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.7.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2863742772 /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.7.2/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.7.2 -L/usr/lib/gcc/i686-redhat-linux/4.7.2/../../.. CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.7.2/crtend.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crtn.o
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2863742772/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2863742772.dir/build.make CMakeFiles/cmTryCompileExec2863742772.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2863742772]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2863742772.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2863742772 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/i686-redhat-linux/4.7.2/lto-wrapper]
+  ignore line: [Target: i686-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --disable-build-with-cxx --disable-build-poststage1-with-cxx --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 20120921 (Red Hat 4.7.2-2) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2863742772' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.7.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2863742772 /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.7.2/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.7.2 -L/usr/lib/gcc/i686-redhat-linux/4.7.2/../../.. CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.7.2/crtend.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crtn.o]
+    arg [/usr/libexec/gcc/i686-redhat-linux/4.7.2/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2863742772] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.7.2] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.7.2]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.7.2/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec2863742772.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/i686-redhat-linux/4.7.2] ==> [/usr/lib/gcc/i686-redhat-linux/4.7.2]
+  collapse dir [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-redhat-linux/4.7.2;/usr/lib]
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec485735360/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec485735360.dir/build.make CMakeFiles/cmTryCompileExec485735360.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec485735360.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec485735360.dir/testCCompiler.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec485735360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec485735360.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec485735360.dir/testCCompiler.c.o  -o cmTryCompileExec485735360 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec532896046/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec532896046.dir/build.make CMakeFiles/cmTryCompileExec532896046.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec532896046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec532896046.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec532896046 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/i686-redhat-linux/4.7.2/lto-wrapper
+Target: i686-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --disable-build-with-cxx --disable-build-poststage1-with-cxx --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
+Thread model: posix
+gcc version 4.7.2 20120921 (Red Hat 4.7.2-2) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec532896046' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.7.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec532896046 /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.7.2/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.7.2 -L/usr/lib/gcc/i686-redhat-linux/4.7.2/../../.. CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.7.2/crtend.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crtn.o
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec532896046/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec532896046.dir/build.make CMakeFiles/cmTryCompileExec532896046.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec532896046]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec532896046.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec532896046 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/i686-redhat-linux/4.7.2/lto-wrapper]
+  ignore line: [Target: i686-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --disable-build-with-cxx --disable-build-poststage1-with-cxx --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 20120921 (Red Hat 4.7.2-2) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/4.7.2/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.7.2/:/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec532896046' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.7.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec532896046 /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.7.2/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.7.2 -L/usr/lib/gcc/i686-redhat-linux/4.7.2/../../.. CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.7.2/crtend.o /usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crtn.o]
+    arg [/usr/libexec/gcc/i686-redhat-linux/4.7.2/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec532896046] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.7.2] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.7.2]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.7.2/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec532896046.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../../crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i686-redhat-linux/4.7.2] ==> [/usr/lib/gcc/i686-redhat-linux/4.7.2]
+  collapse dir [/usr/lib/gcc/i686-redhat-linux/4.7.2/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-redhat-linux/4.7.2;/usr/lib]
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2489598014/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2489598014.dir/build.make CMakeFiles/cmTryCompileExec2489598014.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2489598014.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2489598014.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2489598014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2489598014.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2489598014.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2489598014 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3606565267/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3606565267.dir/build.make CMakeFiles/cmTryCompileExec3606565267.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3606565267.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3606565267.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3606565267
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3606565267.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3606565267.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3606565267 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2656786026/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2656786026.dir/build.make CMakeFiles/cmTryCompileExec2656786026.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2656786026.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2656786026.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2656786026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2656786026.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2656786026.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2656786026 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2420242144/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2420242144.dir/build.make CMakeFiles/cmTryCompileExec2420242144.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2420242144.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2420242144.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2420242144
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2420242144.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2420242144.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2420242144 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec331348827/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec331348827.dir/build.make CMakeFiles/cmTryCompileExec331348827.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec331348827.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec331348827.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec331348827
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec331348827.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec331348827.dir/CheckIncludeFile.c.o  -o cmTryCompileExec331348827 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec287521910/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec287521910.dir/build.make CMakeFiles/cmTryCompileExec287521910.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec287521910.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections  -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec287521910.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+Linking C executable cmTryCompileExec287521910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec287521910.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections  -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec287521910.dir/CheckFunctionExists.c.o  -o cmTryCompileExec287521910 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec364908805/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec364908805.dir/build.make CMakeFiles/cmTryCompileExec364908805.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec364908805.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec364908805.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec364908805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec364908805.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec364908805.dir/CheckIncludeFile.c.o  -o cmTryCompileExec364908805 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec616881960/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec616881960.dir/build.make CMakeFiles/cmTryCompileExec616881960.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec616881960.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec616881960.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec616881960
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec616881960.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec616881960.dir/CheckIncludeFile.c.o  -o cmTryCompileExec616881960 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3805012245/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3805012245.dir/build.make CMakeFiles/cmTryCompileExec3805012245.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3805012245.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3805012245.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3805012245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3805012245.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3805012245.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3805012245 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file /usr/include/png.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2200157427/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2200157427.dir/build.make CMakeFiles/cmTryCompileExec2200157427.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2200157427.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2200157427.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2200157427
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2200157427.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2200157427.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2200157427 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2109096789/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2109096789.dir/build.make CMakeFiles/cmTryCompileExec2109096789.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2109096789.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2109096789.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2109096789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2109096789.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2109096789.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2109096789 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1592779435/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1592779435.dir/build.make CMakeFiles/cmTryCompileExec1592779435.dir/build
+gmake[1]: Entering directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1592779435.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1592779435.dir/CheckIncludeFile.c.o   -c /home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1592779435
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1592779435.dir/link.txt --verbose=1
+/usr/bin/gcc      -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1592779435.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1592779435 -rdynamic 
+gmake[1]: Leaving directory `/home/rodrygojose/opencv_polimi/samples/CMakeFiles/CMakeTmp'
+
+
