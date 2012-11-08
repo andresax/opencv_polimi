@@ -617,3 +617,768 @@ make: Nothing to be done for `all'.
 05:29:07 **** Incremental Build of configuration Debug for project videostab_polimi ****
 make all 
 make: Nothing to be done for `all'.
+10:14:37 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+../src/videostab.cpp: In function ‘int main(int, const char**)’:
+../src/videostab.cpp:359:39: error: no matching function for call to ‘cv::CommandLineParser::get(const char [6], bool)’
+../src/videostab.cpp:359:39: note: candidates are:
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4581:7: note: template<class T> T cv::CommandLineParser::get(const string&, bool) const
+/usr/local/include/opencv2/core/core.hpp:4581:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:359:39: note:   couldn't deduce template parameter ‘T’
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4589:7: note: template<class T> T cv::CommandLineParser::get(int, bool) const
+/usr/local/include/opencv2/core/core.hpp:4589:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:359:39: note:   cannot convert ‘"model"’ (type ‘const char [6]’) to type ‘int’
+../src/videostab.cpp:360:33: error: no matching function for call to ‘cv::CommandLineParser::get(int, bool)’
+../src/videostab.cpp:360:33: note: candidates are:
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4581:7: note: template<class T> T cv::CommandLineParser::get(const string&, bool) const
+/usr/local/include/opencv2/core/core.hpp:4581:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:360:33: note:   cannot convert ‘5’ (type ‘int’) to type ‘const string& {aka const std::basic_string<char>&}’
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4589:7: note: template<class T> T cv::CommandLineParser::get(int, bool) const
+/usr/local/include/opencv2/core/core.hpp:4589:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:360:33: note:   couldn't deduce template parameter ‘T’
+make: *** [src/videostab.o] Error 1
+10:14:55 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+../src/videostab.cpp: In function ‘int main(int, const char**)’:
+../src/videostab.cpp:359:39: error: no matching function for call to ‘cv::CommandLineParser::get(const char [6], bool)’
+../src/videostab.cpp:359:39: note: candidates are:
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4581:7: note: template<class T> T cv::CommandLineParser::get(const string&, bool) const
+/usr/local/include/opencv2/core/core.hpp:4581:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:359:39: note:   couldn't deduce template parameter ‘T’
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4589:7: note: template<class T> T cv::CommandLineParser::get(int, bool) const
+/usr/local/include/opencv2/core/core.hpp:4589:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:359:39: note:   cannot convert ‘"model"’ (type ‘const char [6]’) to type ‘int’
+../src/videostab.cpp:360:33: error: no matching function for call to ‘cv::CommandLineParser::get(int, bool)’
+../src/videostab.cpp:360:33: note: candidates are:
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4581:7: note: template<class T> T cv::CommandLineParser::get(const string&, bool) const
+/usr/local/include/opencv2/core/core.hpp:4581:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:360:33: note:   cannot convert ‘5’ (type ‘int’) to type ‘const string& {aka const std::basic_string<char>&}’
+In file included from ../src/videostab.cpp:6:0:
+/usr/local/include/opencv2/core/core.hpp:4589:7: note: template<class T> T cv::CommandLineParser::get(int, bool) const
+/usr/local/include/opencv2/core/core.hpp:4589:7: note:   template argument deduction/substitution failed:
+../src/videostab.cpp:360:33: note:   couldn't deduce template parameter ‘T’
+make: *** [src/videostab.o] Error 1
+10:15:39 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building file: ../doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT"doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -o "doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+10:18:21 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:25:22 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:27:23 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+10:30:11 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:31:27 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:39:51 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+10:40:15 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:50:12 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:51:53 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:57:36 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+10:58:10 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:58:38 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+10:59:34 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./doc/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+10:59:47 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+17:52:41 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+17:52:55 **** Clean-only build of configuration Debug for project videostab_polimi ****
+make clean 
+rm -rf  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./src/deblurring.d ./src/fast_marching.d ./src/frame_source.d ./src/global_motion.d ./src/inpainting.d ./src/log.d ./src/motion_stabilizing.d ./src/optical_flow.d ./src/outlier_rejection.d ./src/precomp.d ./src/stabilizer.d ./src/videostab.d ./src/wobble_suppression.d  videostab_polimi
+ 
+17:52:56 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+Finished building: ../src/global_motion.cpp
+ 
+Building file: ../src/inpainting.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/inpainting.d" -MT"src/inpainting.d" -o "src/inpainting.o" "../src/inpainting.cpp"
+Finished building: ../src/inpainting.cpp
+ 
+Building file: ../src/log.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/log.d" -MT"src/log.d" -o "src/log.o" "../src/log.cpp"
+Finished building: ../src/log.cpp
+ 
+Building file: ../src/motion_stabilizing.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/motion_stabilizing.d" -MT"src/motion_stabilizing.d" -o "src/motion_stabilizing.o" "../src/motion_stabilizing.cpp"
+Finished building: ../src/motion_stabilizing.cpp
+ 
+Building file: ../src/optical_flow.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/optical_flow.d" -MT"src/optical_flow.d" -o "src/optical_flow.o" "../src/optical_flow.cpp"
+Finished building: ../src/optical_flow.cpp
+ 
+Building file: ../src/outlier_rejection.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outlier_rejection.d" -MT"src/outlier_rejection.d" -o "src/outlier_rejection.o" "../src/outlier_rejection.cpp"
+Finished building: ../src/outlier_rejection.cpp
+ 
+Building file: ../src/precomp.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/precomp.d" -MT"src/precomp.d" -o "src/precomp.o" "../src/precomp.cpp"
+Finished building: ../src/precomp.cpp
+ 
+Building file: ../src/stabilizer.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stabilizer.d" -MT"src/stabilizer.d" -o "src/stabilizer.o" "../src/stabilizer.cpp"
+Finished building: ../src/stabilizer.cpp
+ 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building file: ../src/wobble_suppression.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wobble_suppression.d" -MT"src/wobble_suppression.d" -o "src/wobble_suppression.o" "../src/wobble_suppression.cpp"
+Finished building: ../src/wobble_suppression.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/precomp.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+17:53:34 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+17:54:02 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+17:54:08 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+13:57:48 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+14:06:35 **** Clean-only build of configuration Debug for project videostab_polimi ****
+make clean 
+rm -rf  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./src/deblurring.d ./src/fast_marching.d ./src/frame_source.d ./src/global_motion.d ./src/inpainting.d ./src/log.d ./src/motion_stabilizing.d ./src/optical_flow.d ./src/outlier_rejection.d ./src/stabilizer.d ./src/videostab.d ./src/wobble_suppression.d  videostab_polimi
+ 
+14:06:37 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+../src/deblurring.cpp:43:23: fatal error: precomp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/deblurring.o] Error 1
+14:11:35 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+../src/deblurring.cpp:43:41: fatal error: opencv2/videostab/precomp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/deblurring.o] Error 1
+14:14:25 **** Clean-only build of configuration Debug for project videostab_polimi ****
+make clean 
+rm -rf  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./src/deblurring.d ./src/fast_marching.d ./src/frame_source.d ./src/global_motion.d ./src/inpainting.d ./src/log.d ./src/motion_stabilizing.d ./src/optical_flow.d ./src/outlier_rejection.d ./src/stabilizer.d ./src/videostab.d ./src/wobble_suppression.d  videostab_polimi
+ 
+14:14:27 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+../src/deblurring.cpp:43:41: fatal error: opencv2/videostab/precomp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/deblurring.o] Error 1
+14:14:44 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+../src/deblurring.cpp:43:41: fatal error: opencv2/videostab/precomp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/deblurring.o] Error 1
+14:19:21 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+../src/deblurring.cpp:43:41: fatal error: opencv2/videostab/precomp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/deblurring.o] Error 1
+14:22:38 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+Finished building: ../src/global_motion.cpp
+ 
+Building file: ../src/inpainting.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/inpainting.d" -MT"src/inpainting.d" -o "src/inpainting.o" "../src/inpainting.cpp"
+Finished building: ../src/inpainting.cpp
+ 
+Building file: ../src/log.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/log.d" -MT"src/log.d" -o "src/log.o" "../src/log.cpp"
+Finished building: ../src/log.cpp
+ 
+Building file: ../src/motion_stabilizing.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/motion_stabilizing.d" -MT"src/motion_stabilizing.d" -o "src/motion_stabilizing.o" "../src/motion_stabilizing.cpp"
+Finished building: ../src/motion_stabilizing.cpp
+ 
+Building file: ../src/optical_flow.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/optical_flow.d" -MT"src/optical_flow.d" -o "src/optical_flow.o" "../src/optical_flow.cpp"
+Finished building: ../src/optical_flow.cpp
+ 
+Building file: ../src/outlier_rejection.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outlier_rejection.d" -MT"src/outlier_rejection.d" -o "src/outlier_rejection.o" "../src/outlier_rejection.cpp"
+Finished building: ../src/outlier_rejection.cpp
+ 
+Building file: ../src/stabilizer.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stabilizer.d" -MT"src/stabilizer.d" -o "src/stabilizer.o" "../src/stabilizer.cpp"
+Finished building: ../src/stabilizer.cpp
+ 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building file: ../src/wobble_suppression.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wobble_suppression.d" -MT"src/wobble_suppression.d" -o "src/wobble_suppression.o" "../src/wobble_suppression.cpp"
+Finished building: ../src/wobble_suppression.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+15:31:41 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+../src/global_motion.cpp:48:19: fatal error: clp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/global_motion.o] Error 1
+15:32:10 **** Clean-only build of configuration Debug for project videostab_polimi ****
+make clean 
+rm -rf  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./src/deblurring.d ./src/fast_marching.d ./src/frame_source.d ./src/global_motion.d ./src/inpainting.d ./src/log.d ./src/motion_stabilizing.d ./src/optical_flow.d ./src/outlier_rejection.d ./src/stabilizer.d ./src/videostab.d ./src/wobble_suppression.d  videostab_polimi
+ 
+15:32:49 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+../src/global_motion.cpp:48:19: fatal error: clp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/global_motion.o] Error 1
+15:34:58 **** Clean-only build of configuration Debug for project videostab_polimi ****
+make clean 
+rm -rf  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./src/deblurring.d ./src/fast_marching.d ./src/frame_source.d ./src/global_motion.d ./src/inpainting.d ./src/log.d ./src/motion_stabilizing.d ./src/optical_flow.d ./src/outlier_rejection.d ./src/stabilizer.d ./src/videostab.d ./src/wobble_suppression.d  videostab_polimi
+ 
+15:34:59 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+../src/global_motion.cpp:48:37: fatal error: opencv2/videostab/clp.hpp: No such file or directory
+compilation terminated.
+make: *** [src/global_motion.o] Error 1
+15:36:37 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+Finished building: ../src/global_motion.cpp
+ 
+Building file: ../src/inpainting.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/inpainting.d" -MT"src/inpainting.d" -o "src/inpainting.o" "../src/inpainting.cpp"
+Finished building: ../src/inpainting.cpp
+ 
+Building file: ../src/log.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/log.d" -MT"src/log.d" -o "src/log.o" "../src/log.cpp"
+Finished building: ../src/log.cpp
+ 
+Building file: ../src/motion_stabilizing.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/motion_stabilizing.d" -MT"src/motion_stabilizing.d" -o "src/motion_stabilizing.o" "../src/motion_stabilizing.cpp"
+Finished building: ../src/motion_stabilizing.cpp
+ 
+Building file: ../src/optical_flow.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/optical_flow.d" -MT"src/optical_flow.d" -o "src/optical_flow.o" "../src/optical_flow.cpp"
+Finished building: ../src/optical_flow.cpp
+ 
+Building file: ../src/outlier_rejection.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outlier_rejection.d" -MT"src/outlier_rejection.d" -o "src/outlier_rejection.o" "../src/outlier_rejection.cpp"
+Finished building: ../src/outlier_rejection.cpp
+ 
+Building file: ../src/stabilizer.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stabilizer.d" -MT"src/stabilizer.d" -o "src/stabilizer.o" "../src/stabilizer.cpp"
+Finished building: ../src/stabilizer.cpp
+ 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building file: ../src/wobble_suppression.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wobble_suppression.d" -MT"src/wobble_suppression.d" -o "src/wobble_suppression.o" "../src/wobble_suppression.cpp"
+Finished building: ../src/wobble_suppression.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+15:37:16 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+Finished building: ../src/global_motion.cpp
+ 
+Building file: ../src/inpainting.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/inpainting.d" -MT"src/inpainting.d" -o "src/inpainting.o" "../src/inpainting.cpp"
+Finished building: ../src/inpainting.cpp
+ 
+Building file: ../src/log.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/log.d" -MT"src/log.d" -o "src/log.o" "../src/log.cpp"
+Finished building: ../src/log.cpp
+ 
+Building file: ../src/motion_stabilizing.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/motion_stabilizing.d" -MT"src/motion_stabilizing.d" -o "src/motion_stabilizing.o" "../src/motion_stabilizing.cpp"
+Finished building: ../src/motion_stabilizing.cpp
+ 
+Building file: ../src/optical_flow.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/optical_flow.d" -MT"src/optical_flow.d" -o "src/optical_flow.o" "../src/optical_flow.cpp"
+Finished building: ../src/optical_flow.cpp
+ 
+Building file: ../src/outlier_rejection.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outlier_rejection.d" -MT"src/outlier_rejection.d" -o "src/outlier_rejection.o" "../src/outlier_rejection.cpp"
+Finished building: ../src/outlier_rejection.cpp
+ 
+Building file: ../src/stabilizer.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stabilizer.d" -MT"src/stabilizer.d" -o "src/stabilizer.o" "../src/stabilizer.cpp"
+Finished building: ../src/stabilizer.cpp
+ 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building file: ../src/wobble_suppression.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wobble_suppression.d" -MT"src/wobble_suppression.d" -o "src/wobble_suppression.o" "../src/wobble_suppression.cpp"
+Finished building: ../src/wobble_suppression.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+15:38:43 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+15:39:06 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+15:55:33 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+../src/videostab.cpp: In function ‘int main(int, const char**)’:
+../src/videostab.cpp:338:24: error: could not convert ‘cv::CommandLineParser::get(const string&, bool) const [with T = std::basic_string<char>; std::string = std::basic_string<char>]((* & std::basic_string<char>(((const char*)"help"), (*(const std::allocator<char>*)(& std::allocator<char>())))), 1)’ from ‘std::basic_string<char>’ to ‘bool’
+make: *** [src/videostab.o] Error 1
+15:56:29 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+15:56:47 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+15:58:35 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:00:09 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+16:00:21 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:01:58 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+16:02:12 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:02:33 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:03:44 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+16:03:58 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:04:30 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:06:49 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+16:08:49 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:33:36 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:35:57 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+16:41:53 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+16:44:42 **** Clean-only build of configuration Debug for project videostab_polimi ****
+make clean 
+rm -rf  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o  ./src/deblurring.d ./src/fast_marching.d ./src/frame_source.d ./src/global_motion.d ./src/inpainting.d ./src/log.d ./src/motion_stabilizing.d ./src/optical_flow.d ./src/outlier_rejection.d ./src/stabilizer.d ./src/videostab.d ./src/wobble_suppression.d  videostab_polimi
+ 
+16:44:44 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/deblurring.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/deblurring.d" -MT"src/deblurring.d" -o "src/deblurring.o" "../src/deblurring.cpp"
+Finished building: ../src/deblurring.cpp
+ 
+Building file: ../src/fast_marching.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fast_marching.d" -MT"src/fast_marching.d" -o "src/fast_marching.o" "../src/fast_marching.cpp"
+Finished building: ../src/fast_marching.cpp
+ 
+Building file: ../src/frame_source.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frame_source.d" -MT"src/frame_source.d" -o "src/frame_source.o" "../src/frame_source.cpp"
+Finished building: ../src/frame_source.cpp
+ 
+Building file: ../src/global_motion.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/global_motion.d" -MT"src/global_motion.d" -o "src/global_motion.o" "../src/global_motion.cpp"
+Finished building: ../src/global_motion.cpp
+ 
+Building file: ../src/inpainting.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/inpainting.d" -MT"src/inpainting.d" -o "src/inpainting.o" "../src/inpainting.cpp"
+Finished building: ../src/inpainting.cpp
+ 
+Building file: ../src/log.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/log.d" -MT"src/log.d" -o "src/log.o" "../src/log.cpp"
+Finished building: ../src/log.cpp
+ 
+Building file: ../src/motion_stabilizing.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/motion_stabilizing.d" -MT"src/motion_stabilizing.d" -o "src/motion_stabilizing.o" "../src/motion_stabilizing.cpp"
+Finished building: ../src/motion_stabilizing.cpp
+ 
+Building file: ../src/optical_flow.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/optical_flow.d" -MT"src/optical_flow.d" -o "src/optical_flow.o" "../src/optical_flow.cpp"
+Finished building: ../src/optical_flow.cpp
+ 
+Building file: ../src/outlier_rejection.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outlier_rejection.d" -MT"src/outlier_rejection.d" -o "src/outlier_rejection.o" "../src/outlier_rejection.cpp"
+Finished building: ../src/outlier_rejection.cpp
+ 
+Building file: ../src/stabilizer.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stabilizer.d" -MT"src/stabilizer.d" -o "src/stabilizer.o" "../src/stabilizer.cpp"
+Finished building: ../src/stabilizer.cpp
+ 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building file: ../src/wobble_suppression.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wobble_suppression.d" -MT"src/wobble_suppression.d" -o "src/wobble_suppression.o" "../src/wobble_suppression.cpp"
+Finished building: ../src/wobble_suppression.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+18:47:09 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+19:18:25 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+19:21:29 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+19:33:50 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+19:35:00 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+19:49:02 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.

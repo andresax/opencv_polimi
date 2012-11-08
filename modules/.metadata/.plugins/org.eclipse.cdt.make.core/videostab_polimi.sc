@@ -230,6 +230,7 @@
 <definedSymbol symbol="unix=1"/>
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__DECIMAL_BID_FORMAT__=1"/>
+<definedSymbol symbol="_="/>
 </collector>
 </instance>
 <instance id="cdt.managedbuild.config.gnu.cross.exe.debug.1496130770;cdt.managedbuild.config.gnu.cross.exe.debug.1496130770.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.37417010;cdt.managedbuild.tool.gnu.cpp.compiler.input.705771424">

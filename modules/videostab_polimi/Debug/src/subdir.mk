@@ -13,7 +13,6 @@ CPP_SRCS += \
 ../src/motion_stabilizing.cpp \
 ../src/optical_flow.cpp \
 ../src/outlier_rejection.cpp \
-../src/precomp.cpp \
 ../src/stabilizer.cpp \
 ../src/videostab.cpp \
 ../src/wobble_suppression.cpp 
@@ -28,7 +27,6 @@ OBJS += \
 ./src/motion_stabilizing.o \
 ./src/optical_flow.o \
 ./src/outlier_rejection.o \
-./src/precomp.o \
 ./src/stabilizer.o \
 ./src/videostab.o \
 ./src/wobble_suppression.o 
@@ -43,7 +41,6 @@ CPP_DEPS += \
 ./src/motion_stabilizing.d \
 ./src/optical_flow.d \
 ./src/outlier_rejection.d \
-./src/precomp.d \
 ./src/stabilizer.d \
 ./src/videostab.d \
 ./src/wobble_suppression.d 
@@ -53,7 +50,7 @@ CPP_DEPS += \
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross G++ Compiler'
-	g++ -I/usr/local/include/opencv -I/usr/local/include/divx -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

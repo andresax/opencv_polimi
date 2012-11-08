@@ -67,7 +67,6 @@ public:
     virtual void reset()
     {
 #ifdef HAVE_OPENCV_HIGHGUI
-    	//vc = new VideoCapture();
         vc.release();
         vc.open(path_);
         if (!vc.isOpened())

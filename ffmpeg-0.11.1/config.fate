@@ -1,1 +1,0 @@
-config:x86:x86_32:generic:linux:gcc 4.7.2 (GCC) 20120921 (Red Hat 4.7.2-2):--enable-gpl --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libtheora --enable-libvorbis --enable-libx264 --enable-libxvid --enable-nonfree --enable-postproc --enable-version3 --enable-x11grab

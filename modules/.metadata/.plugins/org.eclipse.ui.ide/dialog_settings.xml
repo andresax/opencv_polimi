@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/home/rodrygojose/opencv_polimi/modules/videostab_polimi/doc" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="TaskPropertiesDialogSettings">
+		<item value="828" key="DIALOG_WIDTH"/>
+		<item value="32" key="DIALOG_Y_ORIGIN"/>
+		<item value="351" key="DIALOG_HEIGHT"/>
+		<item value="226" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
 	<section name="NewWizardAction">
 	</section>
 	<section name="CleanDialogSettings">
 		<item value="565" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_NOW"/>
 		<item value="59" key="DIALOG_Y_ORIGIN"/>
+		<item value="false" key="BUILD_ALL"/>
 		<item value="358" key="DIALOG_X_ORIGIN"/>
-		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="492" key="DIALOG_HEIGHT"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 </section>
