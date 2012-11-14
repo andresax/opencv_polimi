@@ -1382,3 +1382,42 @@ make: Nothing to be done for `all'.
 19:49:02 **** Incremental Build of configuration Debug for project videostab_polimi ****
 make all 
 make: Nothing to be done for `all'.
+15:17:01 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+15:19:16 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+15:19:39 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+09:55:49 **** Build of configuration Debug for project videostab_polimi ****
+make all 
+Building file: ../src/videostab.cpp
+Invoking: Cross G++ Compiler
+g++ -include/usr/include/linux/videodev2.h -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/videostab.d" -MT"src/videostab.d" -o "src/videostab.o" "../src/videostab.cpp"
+Finished building: ../src/videostab.cpp
+ 
+Building target: videostab_polimi
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "videostab_polimi"  ./src/deblurring.o ./src/fast_marching.o ./src/frame_source.o ./src/global_motion.o ./src/inpainting.o ./src/log.o ./src/motion_stabilizing.o ./src/optical_flow.o ./src/outlier_rejection.o ./src/stabilizer.o ./src/videostab.o ./src/wobble_suppression.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_photo -lopencv_video
+Finished building target: videostab_polimi
+ 
+12:24:09 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+12:27:42 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.
+12:36:12 **** Incremental Build of configuration Debug for project videostab_polimi ****
+make all 
+make: Nothing to be done for `all'.

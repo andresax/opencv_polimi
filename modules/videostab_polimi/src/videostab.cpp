@@ -352,7 +352,7 @@ int main(int argc, const char **argv)
         }
 #endif
 
-        StabilizerBase *stabilizer = 0; // TODO stabilizer
+        StabilizerBase *stabilizer = 0;
 
         // check if source video is specified
 
@@ -362,7 +362,7 @@ int main(int argc, const char **argv)
 
         // get source video parameters
 
-        VideoFileSource *source = new VideoFileSource(inputPath); // TODO videoSource
+        VideoFileSource *source = new VideoFileSource(inputPath);
         cout << "frame count (rough): " << source->count() << endl;
         if (arg("fps") == "auto")
             outputFps = source->fps();
@@ -371,13 +371,13 @@ int main(int argc, const char **argv)
 
         // prepare motion estimation builders
 
-        Ptr<IMotionEstimatorBuilder> motionEstBuilder; // TODO motionBuilder
+        Ptr<IMotionEstimatorBuilder> motionEstBuilder;
         if (arg("lin-prog-motion-est") == "yes")
             motionEstBuilder = new MotionEstimatorL1Builder(cmd, arg("gpu") == "yes");
         else
             motionEstBuilder = new MotionEstimatorRansacL2Builder(cmd, arg("gpu") == "yes");
 
-        Ptr<IMotionEstimatorBuilder> wsMotionEstBuilder; // TODO wsMotionBuilder
+        Ptr<IMotionEstimatorBuilder> wsMotionEstBuilder;
         if (arg("ws-lp") == "yes")
             wsMotionEstBuilder = new MotionEstimatorL1Builder(cmd, arg("gpu") == "yes", "ws-");
         else
@@ -529,7 +529,7 @@ int main(int argc, const char **argv)
         if (arg("output") != "no")
             outputPath = arg("output");
 
-        if (!arg("quiet").empty()) quietMode = true;
+        if (!arg("quiet").empty()) quietMode = true; //quietMode = argb("quiet")
 
         run();
     }
