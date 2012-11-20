@@ -159,6 +159,7 @@ private:
     }
 };
 
+
 CV_EXPORTS Mat ensureInclusionConstraint(const Mat &M, Size size, float trimRatio);
 
 CV_EXPORTS float estimateOptimalTrimRatio(const Mat &M, Size size);

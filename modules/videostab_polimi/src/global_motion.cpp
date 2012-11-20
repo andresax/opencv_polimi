@@ -468,8 +468,8 @@ Mat MotionEstimatorRansacL2::estimate(InputArray points0, InputArray points1, bo
     Mat_<float> M;
 
     if (motionModel() != MM_HOMOGRAPHY)
-        M = estimateGlobalMotionRansac(
-                points0, points1, motionModel(), ransacParams_, 0, &ninliers);
+            M = estimateGlobalMotionRansac(
+                    points0, points1, motionModel(), ransacParams_, 0, &ninliers);
     else
     {
         vector<uchar> mask;
@@ -680,7 +680,7 @@ Mat KeypointBasedMotionEstimator::estimate(const Mat &frame0, const Mat &frame1,
     // extract points from keypoints
     pointsPrev_.resize(keypointsPrev_.size());
     for (size_t i = 0; i < keypointsPrev_.size(); ++i)
-        pointsPrev_[i] = keypointsPrev_[i].pt;
+    	pointsPrev_[i] = keypointsPrev_[i].pt;
 
     // find correspondences
     optFlowEstimator_->run(frame0, frame1, pointsPrev_, points_, status_, noArray());

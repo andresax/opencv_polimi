@@ -43,7 +43,7 @@
 #include "precomp.hpp"
 #include <queue>
 #include "opencv2/videostab/inpainting.hpp"
-#include "opencv2/videostab/global_motion.hpp"
+//#include "opencv2/videostab/global_motion.hpp"
 #include "opencv2/videostab/fast_marching.hpp"
 #include "opencv2/videostab/ring_buffer.hpp"
 #include "opencv2/opencv_modules.hpp"

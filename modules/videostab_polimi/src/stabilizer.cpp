@@ -130,7 +130,7 @@ bool StabilizerBase::doOneIteration()
 
             if (curPos_ >= radius_)
             {
-                curStabilizedPos_ = curPos_ - radius_;
+            	curStabilizedPos_++; //curStabilizedPos_ = curPos_ - radius_;
                 stabilizeFrame();
             }
         }
