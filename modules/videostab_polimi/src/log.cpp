@@ -43,7 +43,7 @@
 #include "precomp.hpp"
 #include <cstdio>
 #include <cstdarg>
-#include "opencv2/videostab/log.hpp"
+#include "log.hpp"
 
 using namespace std;
 

@@ -41,8 +41,8 @@
 //M*/
 
 #include "precomp.hpp"
-#include "opencv2/videostab/stabilizer.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
+#include "stabilizer.hpp"
+#include "ring_buffer.hpp"
 
 // for debug purposes
 #define SAVE_MOTIONS 0
@@ -91,7 +91,7 @@ void StabilizerBase::reset()
 Mat StabilizerBase::nextStabilizedFrame()
 {
     // check if we've processed all frames already
-    if (curStabilizedPos_ == curPos_ && curStabilizedPos_ != -1)
+	if (curStabilizedPos_ == curPos_ && curStabilizedPos_ != -1 && Ptr<VideoFileSource>(frameSource_).obj->count()-1 == curPos_) //if (curStabilizedPos_ == curPos_ && curStabilizedPos_ != -1)
     {
         logProcessingTime();
         return Mat();
@@ -130,7 +130,7 @@ bool StabilizerBase::doOneIteration()
 
             if (curPos_ >= radius_)
             {
-            	curStabilizedPos_++; //curStabilizedPos_ = curPos_ - radius_;
+            	curStabilizedPos_ = curPos_ - radius_;
                 stabilizeFrame();
             }
         }
@@ -259,6 +259,27 @@ OnePassStabilizer::OnePassStabilizer()
 }
 
 
+Mat OnePassStabilizer::nextFrame()
+{
+    if ( startingFrame_-1 > curPos_ )
+    {
+        Mat frame = frameSource_->nextFrame();
+
+        curPos_++;
+
+        if (curPos_ > 0)
+        	at(curPos_, frames_) = frame;
+        else
+        	setUp(frame);
+
+        return frame;
+
+    }
+    else
+        return nextStabilizedFrame();
+}
+
+
 void OnePassStabilizer::reset()
 {
     StabilizerBase::reset();
@@ -271,7 +292,12 @@ void OnePassStabilizer::setUp(const Mat &firstFrame)
     frameMask_.create(frameSize_, CV_8U);
     frameMask_.setTo(255);
 
-    int cacheSize = 2*radius_ + 1;
+    int cacheSize;
+    if( radius_!=0 )
+    	cacheSize = 2*radius_ + 1;
+    else
+    	cacheSize = Ptr<VideoFileSource>(frameSource_).obj->count() - startingFrame_;
+
     frames_.resize(cacheSize);
     stabilizedFrames_.resize(cacheSize);
     stabilizedMasks_.resize(cacheSize);
@@ -298,7 +324,8 @@ Mat OnePassStabilizer::estimateMotion()
 
 Mat OnePassStabilizer::estimateStabilizationMotion()
 {
-    return motionFilter_->stabilize(curStabilizedPos_, motions_, make_pair(0, curPos_));
+    //return motionFilter_->stabilize(curStabilizedPos_, motions_, make_pair(0, curPos_));
+	return motionFilter_->stabilize(curStabilizedPos_, motions_, make_pair(startingFrame_, curPos_));
 }
 
 

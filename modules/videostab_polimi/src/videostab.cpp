@@ -7,7 +7,7 @@
 #include "opencv2/video/video.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
-#include "opencv2/videostab/videostab.hpp"
+#include "videostab.hpp"
 #include "opencv2/opencv_modules.hpp"
 
 #define arg(name) cmd.get<string>(name)
@@ -330,7 +330,8 @@ int main(int argc, const char **argv)
                 "{ o  output                | stabilized.avi | }"
                 "{ fps                      | auto | }"
                 "{ q quiet                  |  | }"
-                "{ h help                   |  | }";
+                "{ h help                   |  | }"
+        		"{ zma zero-motions-at      | no | }";
         CommandLineParser cmd(argc, argv, keys);
 
         // parse command arguments
@@ -448,10 +449,27 @@ int main(int argc, const char **argv)
 
             OnePassStabilizer *onePassStabilizer = new OnePassStabilizer();
             stabilizer = onePassStabilizer;
-            if (arg("stdev") == "auto")
-                onePassStabilizer->setMotionFilter(new GaussianMotionFilter(argi("radius")));
+
+            if (arg("zero-motions-at") != "no")
+            	onePassStabilizer->setMotionFilter(new ZeroMotionFilter());
             else
-                onePassStabilizer->setMotionFilter(new GaussianMotionFilter(argi("radius"), argf("stdev")));
+            	if (arg("stdev") == "auto")
+            	{
+            		onePassStabilizer->setMotionFilter(new GaussianMotionFilter(argi("radius")));
+            	}else{
+            		onePassStabilizer->setMotionFilter(new GaussianMotionFilter(argi("radius"), argf("stdev")));
+            	}
+        }
+
+        if (arg("zero-motions-at") == "no")
+        {
+        	stabilizer->setStartingFrame(0);
+        	stabilizer->setRadius(argi("radius"));
+        }
+        else
+        {
+        	stabilizer->setStartingFrame(argi("zero-motions-at"));
+        	stabilizer->setRadius(0);
         }
 
         stabilizer->setFrameSource(source);
@@ -472,7 +490,7 @@ int main(int argc, const char **argv)
             stabilizer->motionEstimator()->setMotionModel(model);
         }
 
-        stabilizer->setRadius(argi("radius"));
+        //stabilizer->setRadius(argi("radius"));
 
         // init deblurer
         if (arg("deblur") == "yes")

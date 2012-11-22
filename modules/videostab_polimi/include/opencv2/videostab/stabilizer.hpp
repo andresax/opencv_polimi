@@ -47,13 +47,13 @@
 #include <ctime>
 #include "opencv2/core/core.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
-#include "opencv2/videostab/global_motion.hpp"
-#include "opencv2/videostab/motion_stabilizing.hpp"
-#include "opencv2/videostab/frame_source.hpp"
-#include "opencv2/videostab/log.hpp"
-#include "opencv2/videostab/inpainting.hpp"
-#include "opencv2/videostab/deblurring.hpp"
-#include "opencv2/videostab/wobble_suppression.hpp"
+#include "global_motion.hpp"
+#include "motion_stabilizing.hpp"
+#include "frame_source.hpp"
+#include "log.hpp"
+#include "inpainting.hpp"
+#include "deblurring.hpp"
+#include "wobble_suppression.hpp"
 
 namespace cv
 {
@@ -89,6 +89,9 @@ public:
     void setBorderMode(int val) { borderMode_ = val; }
     int borderMode() const { return borderMode_; }
 
+    void setStartingFrame(int val) { startingFrame_ = val; }
+    int startingFrame() const { return startingFrame_; }
+
     void setInpainter(Ptr<InpainterBase> val) { inpainter_ = val; }
     Ptr<InpainterBase> inpainter() const { return inpainter_; }
 
@@ -115,6 +118,7 @@ protected:
     bool doCorrectionForInclusion_;
     int borderMode_;
 
+    int startingFrame_;	// frame where the stabilization process start.
     Size frameSize_;
     Mat frameMask_;
     int curPos_;
@@ -142,7 +146,7 @@ public:
     Ptr<MotionFilterBase> motionFilter() const { return motionFilter_; }
 
     virtual void reset();
-    virtual Mat nextFrame() { return nextStabilizedFrame(); }
+    virtual Mat nextFrame();
 
 private:
     virtual void setUp(const Mat &firstFrame);

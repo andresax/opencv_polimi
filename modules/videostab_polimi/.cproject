@@ -26,9 +26,7 @@
 								<option id="gnu.c.compiler.option.debugging.gprof.226332098" name="Generate gprof information (-pg)" superClass="gnu.c.compiler.option.debugging.gprof" value="true" valueType="boolean"/>
 								<option id="gnu.c.compiler.option.debugging.other.41146296" name="Other debugging flags" superClass="gnu.c.compiler.option.debugging.other" value="-F cv::videostab" valueType="string"/>
 								<option id="gnu.c.compiler.option.debugging.prof.617283122" name="Generate prof information (-p)" superClass="gnu.c.compiler.option.debugging.prof" value="true" valueType="boolean"/>
-								<option id="gnu.c.compiler.option.include.paths.2098837835" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="/home/rodrygojose/Downloads/Clp-1.14.7/include/coin"/>
-								</option>
+								<option id="gnu.c.compiler.option.include.paths.2098837835" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.356335495" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.37417010" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -36,6 +34,7 @@
 								<option id="gnu.cpp.compiler.option.debugging.level.765588097" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.default" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1632736647" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include/opencv"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include/opencv2/videostab}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.include.files.154263176" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" valueType="includeFiles">
 									<listOptionValue builtIn="false" value="/usr/include/linux/videodev2.h"/>
@@ -73,6 +72,28 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1496130770.1141946949" name="/" resourcePath="src">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.482428275" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1887901480.456247693" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix.1887901480"/>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.cross.c.compiler.1589987681" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.793782030">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1024663228" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.156381356" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.37417010">
+								<option id="gnu.cpp.compiler.option.include.paths.1485239337" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/local/include/opencv"/>
+									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include/opencv2/videostab}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1634968450" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1057629434" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker.664798628"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1968518155" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker.965999223"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.2015017038" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver.102329048"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1120243130" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler.1720657408">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.570848673" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -105,6 +126,7 @@
 								<option id="gnu.cpp.compiler.option.debugging.level.706860519" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.2117615858" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include/opencv"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include/opencv2/videostab}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.include.files.1625299293" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" valueType="includeFiles">
 									<listOptionValue builtIn="false" value="/usr/include/linux/videodev2.h"/>
@@ -136,6 +158,27 @@
 							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.258811155" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.973540402" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2103341266" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.release.1302911560.761425076" name="/" resourcePath="src">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.release.1946745546" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.release" unusedChildren="">
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1694047517" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.2072308328">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1195378377" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1989172720" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1786945421">
+								<option id="gnu.cpp.compiler.option.include.paths.551850607" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/local/include/opencv"/>
+									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include/opencv2/videostab}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1915523037" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1087963862" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker.897551955"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1718783264" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker.227835539"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.269391574" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver.258811155"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1961722534" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler.973540402">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.650982772" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>

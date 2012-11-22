@@ -46,7 +46,7 @@
 #include <vector>
 #include <utility>
 #include "opencv2/core/core.hpp"
-#include "opencv2/videostab/global_motion.hpp"
+#include "global_motion.hpp"
 
 namespace cv
 {
@@ -110,6 +110,21 @@ private:
 };
 
 inline GaussianMotionFilter::GaussianMotionFilter(int _radius, float _stdev) { setParams(_radius, _stdev); }
+
+
+// ZeroMotionFilter ------------------------------------------------------------
+class CV_EXPORTS ZeroMotionFilter : public MotionFilterBase
+{
+public:
+    ZeroMotionFilter(){ }
+
+    Mat stabilize(int idx, const std::vector<Mat> &motions, std::pair<int,int> range)
+    {
+    	// return the inverse of the all motions un the range
+    	return getMotion(range.first-1, range.second, motions).inv();
+    }
+};
+
 
 class CV_EXPORTS LpMotionStabilizer : public IMotionStabilizer
 {

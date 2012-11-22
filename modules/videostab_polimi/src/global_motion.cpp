@@ -41,9 +41,9 @@
 //M*/
 
 #include "precomp.hpp"
-#include "opencv2/videostab/global_motion.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
-#include "opencv2/videostab/outlier_rejection.hpp"
+#include "global_motion.hpp"
+#include "ring_buffer.hpp"
+#include "outlier_rejection.hpp"
 #include "opencv2/opencv_modules.hpp"
 #include "clp.hpp"
 

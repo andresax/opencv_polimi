@@ -50,7 +50,7 @@ CPP_DEPS += \
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross G++ Compiler'
-	g++ -I/usr/local/include/opencv -include/usr/include/linux/videodev2.h -O0 -g -p -pg -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -I/usr/local/include/opencv -I/usr/local/include -I"/home/rodrygojose/opencv_polimi/modules/videostab_polimi/include/opencv2/videostab" -include/usr/include/linux/videodev2.h -O0 -g -p -pg -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
