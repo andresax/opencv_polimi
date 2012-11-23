@@ -42,7 +42,7 @@
 
 #include "precomp.hpp"
 #include "opencv2/core/core.hpp"
-#include "opencv2/videostab/outlier_rejection.hpp"
+#include "outlier_rejection.hpp"
 
 using namespace std;
 

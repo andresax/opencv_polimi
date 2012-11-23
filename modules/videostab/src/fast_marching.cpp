@@ -41,8 +41,8 @@
 //M*/
 
 #include "precomp.hpp"
-#include "opencv2/videostab/fast_marching.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
+#include "fast_marching.hpp"
+#include "ring_buffer.hpp"
 
 using namespace std;
 

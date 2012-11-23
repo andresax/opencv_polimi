@@ -1,0 +1,3 @@
+./resources/stabilized_videos/home2.avi --o=./resources/stabilized_videos/home2_500_gauss40_homography.avi --sm=./resources/motions/motions_home2_500_gauss40_homography.txt --lp=no --et=no --fpa=29.61 --nkps=200 --radius=40 --zm=250 --m=homography --quiet
+
+./resources/videos/home1.mp4 --o=./resources/stabilized_videos/home1_100_zm75_affine2.avi --sm=./resources/motions/motions_home1_100_zm75_affine.txt --lp=no --et=no --fps=29.61 --nkps=100 --radius=40 --zm=75 --m=affine --quiet

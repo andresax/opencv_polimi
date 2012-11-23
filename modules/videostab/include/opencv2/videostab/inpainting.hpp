@@ -45,9 +45,9 @@
 
 #include <vector>
 #include "opencv2/core/core.hpp"
-#include "opencv2/videostab/optical_flow.hpp"
-#include "opencv2/videostab/fast_marching.hpp"
-#include "opencv2/videostab/global_motion.hpp"
+#include "optical_flow.hpp"
+#include "fast_marching.hpp"
+#include "global_motion.hpp"
 #include "opencv2/photo/photo.hpp"
 
 namespace cv

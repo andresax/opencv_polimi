@@ -41,9 +41,9 @@
 //M*/
 
 #include "precomp.hpp"
-#include "opencv2/videostab/deblurring.hpp"
-#include "opencv2/videostab/global_motion.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
+#include "deblurring.hpp"
+#include "global_motion.hpp"
+#include "ring_buffer.hpp"
 
 using namespace std;
 
