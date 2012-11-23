@@ -41,8 +41,8 @@
 //M*/
 
 #include "precomp.hpp"
-#include "opencv2/videostab/frame_source.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
+#include "frame_source.hpp"
+#include "ring_buffer.hpp"
 
 #include "opencv2/opencv_modules.hpp"
 #ifdef HAVE_OPENCV_HIGHGUI

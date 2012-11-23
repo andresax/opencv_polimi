@@ -41,8 +41,8 @@
 //M*/
 
 #include "precomp.hpp"
-#include "opencv2/videostab/wobble_suppression.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
+#include "wobble_suppression.hpp"
+#include "ring_buffer.hpp"
 
 using namespace std;
 

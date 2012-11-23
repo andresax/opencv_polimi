@@ -10,7 +10,7 @@ videostab::FastMarchingMethod
 
 .. ocv:class:: videostab::FastMarchingMethod
 
-Describes the Fast Marching Method implementation.
+Describes the Fast Marching Method implementation. 
 
 ::
 
@@ -29,7 +29,7 @@ Describes the Fast Marching Method implementation.
 videostab::FastMarchingMethod::FastMarchingMethod
 -------------------------------------------------
 
-Constructor.
+Constructor. 
 
 .. ocv:function:: videostab::FastMarchingMethod::FastMarchingMethod()
 
@@ -37,15 +37,15 @@ Constructor.
 videostab::FastMarchingMethod::run
 ----------------------------------
 
-Template method that runs the Fast Marching Method.
+Template method that runs the Fast Marching Method. 
 
-.. ocv:function:: template<typename Inpaint> Inpaint videostab::FastMarchingMethod::run(const Mat &mask, Inpaint inpaint)
+.. ocv:function:: Inpaint FastMarchingMethod::run(const Mat &mask, Inpaint inpaint)
 
     :param mask: Image mask. ``0`` value indicates that the pixel value must be inpainted, ``255`` indicates that the pixel value is known, other values aren't acceptable.
 
     :param inpaint: Inpainting functor that overloads ``void operator ()(int x, int y)``.
 
-    :return: Inpainting functor.
+    :return: Inpainting functor. 
 
 
 videostab::FastMarchingMethod::distanceMap
